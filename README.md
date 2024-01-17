@@ -61,18 +61,6 @@ The confusion matrix , precision , recall and F1 score has been displayed for yo
 
 ![image](https://user-images.githubusercontent.com/86561124/174431788-0c9feb90-de29-4477-a6ad-25c0f6481663.png)
 
-### Results from part 2 :
-
-I have also uploaded some raw code to this repository , here are the conclusions derived from it :
-
-Frauds are time independent so we can drop time : 
-
-![image](https://github.com/ayush-agarwal-0502/Credit-Card-Fraud-Detection-ML/assets/86561124/64bfdfa6-17db-47f3-87f7-25d0aa2ecc70)
-
-__Lower Dimension Visualization__ is beautiful : 
-
-![image](https://github.com/ayush-agarwal-0502/Credit-Card-Fraud-Detection-ML/assets/86561124/e6084542-6721-4b8b-b6ab-43d17141db21)
-
 I also took advice from my seniors, decided to __undersample__ the dataset since significance of the data would be more realistic if there was no synthetic dataset. 
 I also decided to choose the ML model with most recall , reason being that I realized later that as a business, labelling a Non Fraud datapoint as fraudulent would be much more worse for the company, __since nobody would like their card to decline__ and people would literally stop using that credit card, so we must __focus more on achieving lower recall than only blindly improving F1 score__ . 
 So I got Logistic regression as the winner again with the following results : 
