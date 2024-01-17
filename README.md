@@ -1,14 +1,5 @@
 # Credit-Card-Fraud-Detection-ML
 Credit Card Fraud Detection using Logistic Regression 
-* Name - Ayush Agarwal 
-* Project - Credit Card Fraud Detection 
-* Skills - Logistic regression , Support Vector Machine, K Nearest Neighbours, F1 Score, ROC-AUC Curve, Data Visualisation , Exploratory Data Analysis , Data Science application in Finance , Machine Learning 
-* Tools - Google Colab , Jupyter Notebooks , Python , Numpy , Pandas , Matplotlib , Seaborn , Sklearn 
-
-## Code :
-
-The code is availaible at : https://github.com/ayush-agarwal-0502/Credit-Card-Fraud-Detection-ML/blob/main/credit_card_fraud_detection_project.ipynb (in this repository itself ) .
-
 ## The Dataset :
 
 The data was taken from Kaggle site : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud .
